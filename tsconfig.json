@@ -7,8 +7,9 @@
     "strict": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "noUncheckedIndexedAccess": false
+    "noUncheckedIndexedAccess": false,
+    "typeRoots": ["./types"]
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "src/.d.ts"],
   "exclude": ["src/types/*.ts", "node_modules", ".vscode"]
 }
